@@ -46,6 +46,9 @@ class SalahOrg(object):
             self.year, self.month, self.year, self.month, self.month_range[1])
 
     def get_month_page(self):
+        '''
+        this method takes the url and saves csv file to self.path
+        '''
         page = requests.get(self.url)
         with open(self.path, 'wb') as f:
             f.write(page.content)

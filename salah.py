@@ -1,4 +1,4 @@
-#! /home/alkhaldieid/anaconda3/bin/python
+#!/home/alkhaldieid/anaconda3/bin/python
 import calendar
 import datetime
 
@@ -65,7 +65,7 @@ class SalahOrg(object):
                 if prayer == "Sunrise":
                     pass
                 else:
-                    print("** TODO {}".format(prayer))
+                    print("** [#A] TODO {}".format(prayer))
                     if i > 8:
                         if prayer == "Fajr":
                             print("  SCHEDULED: <{}-{}-{} {} {}-{}>".format(

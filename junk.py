@@ -1,10 +1,3 @@
-def SomeFunc(a,b):
-    c=a+b
-    return c
+import torchvision.datasets.caltech as data_set
 
-someCond = True
-if someCond:
-   print('someCond') 
-else:
-    print("something else")
-
+print(data_set)
